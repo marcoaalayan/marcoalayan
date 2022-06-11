@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARCO ALAYAN color-profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+         <div class="navbar">
+             <img src="MARCO ALAYAN PICS/logo.png" class="logo">
+             <nav>
+                 <ul id="menulist">
+                     <li><a href="Index.html">HOME</a></li>
+                     <li><a href="Education.html">EDUCATION</a></li>
+                     <li><a href="About.html">ABOUT ME</a></li>
+                     <li><a href="Project.html">PROJECT</a></li>
+
+                 </ul>
+             </nav>
+             <img src="MARCO ALAYAN PICS/menu.png" class="menu-icon" onclick="togglemenu()">
+              </div>
+         <div class="row">
+             <div class="col-1">
+                <h2>MARCO<BR>ALAYAN</h2>
+                <h3>BSIT A 602</h3>
+                <p>Web Developer</p>
+                <h4></h4>
+                 <button type="button">LOG IN<img src="MARCO ALAYAN PICS/arrow.png">
+                 </button>
+                 </div>
+                <div class="col-2">
+                    <img src="MARCO ALAYAN PICS/MARCO 2.png" class="MARCO 2">
+                    <div class="color-box"></div>
+                <div class="col-3"></div>
+         </div>
+         </div>
+         <div class="social-links">
+             <img src="MARCO ALAYAN PICS/fb.png">
+             <img src="MARCO ALAYAN PICS/tw.png">
+             <img src="MARCO ALAYAN PICS/ig.png">
+         </div>
+
+        <script>
+            var menulist = document.getElementById("menulist");
+
+            menulist.style.maxHeight = "0px";
+
+            function togglemenu(){
+
+                if (menulist.style.maxHeight == "0px") {
+                    menulist.style.maxHeight = "130px"
+                }
+                else
+                {
+
+                menulist.style.maxHeight = "0px";
+            }
+            }
+
+        </script>
+
+</body>
+</html>
